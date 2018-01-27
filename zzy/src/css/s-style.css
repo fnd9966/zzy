@@ -1,0 +1,362 @@
+
+
+header {
+	width:100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*height: 42px;*/
+}
+.zzy-wrap{
+	
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.zzy-wrap-m-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
+.zzy-logo {
+	display: block;
+	width: 95px;
+	height: 27px;
+	background: url(../images/iphoneIPAD-logo.png);
+	background-size: cover;
+}
+
+.zzy-nav-list {
+	display: block;
+	width: 21px;
+	height: 19px;
+	background-image: url("../images/iPhone6.png");
+	background-size: cover;
+
+}
+.zzy-nav-list-1 {
+	display: block;
+	margin-top: 4px;
+	width: 16px;
+	height: 16px;
+	background: url("../images/iphone/IPHONE-x.png") no-repeat;
+	background-size: cover;
+}
+
+.zzy-nav {
+	display: none;
+	background-color: #fff;
+	position: absolute;
+	top: 57px;
+	left: 0;
+	width: 100%;
+
+}
+.zzy-nav a {
+	font-size: 14px;
+	margin-left: 15px;
+	height: 44px;
+	display: block;
+	color: #999999;
+	line-height: 44px;
+	border-bottom: 1px solid #eeeeee;
+}
+.icon-next {
+	margin-top: 16px;
+	margin-right: 15px;
+	width: 7px;
+	height: 14px;
+	background:url("../images/iphone/IPHONE-you.png");
+	background-size: cover;
+	float: right;
+}
+.zzy-nav > .zzy-active {
+	color: #0a83fb;
+}
+
+/*导航*/
+.zzy-banner-s {
+	width: 100%;
+}
+.zzy-banner-s > img {
+	display: block;
+	transition: opacity 3s;
+	overflow: hidden;
+    width:100%;
+    height: 100%;
+}
+
+
+.zzy-view {
+	margin-top: 50px;
+	margin-bottom: 47px;
+	display: flex;
+	flex-direction: column; 
+	align-content: center;   
+}
+.zzy-data-dl {
+	margin-bottom: 33px;
+	height: 60px;
+
+}
+.zzy-data-dl:nth-of-type(3) {
+	margin-bottom: 0;
+}
+.zzy-data-dt {
+	position: absolute;
+	color: #1683fb;
+}
+.zzy-data-dt span {
+	width: 77px;
+	position: absolute;
+	top: 0;
+	left: 78px;
+	font-size: 18px;
+	letter-spacing: 1px;
+
+}
+.icon-author {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 54px;
+	background:url("../images/author-icon.png") no-repeat;
+	background-size: cover;
+}
+.zzy-data-dd {
+	position: absolute;
+	left: 10px;
+	margin-top: 24px;
+	font-size: 13px;
+	margin-left: 83px;
+	line-height: 18px;
+	height: 31px;
+	color: #666;
+}
+.icon-chanel {
+	display: block;
+	width: 60px;
+	height: 54px;
+	background: url("../images/act-icon.png") no-repeat;
+	background-size: cover;
+}
+.icon-stage {
+
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url("../images/pingtai.png") no-repeat;
+	background-size: cover;
+}
+
+/*各种平台展示*/
+.introduce-box {
+	width: 100%;
+	background-color: #eeeeee;
+}
+.zzy-tab {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	padding-top: 45px;
+	margin-bottom: 30px;
+}
+.zzy-tab-li {
+	text-align: center;
+	float: left;
+	width: 100px;
+}
+.zzy-tab-li a {
+	font-size: 11px;
+	color: #999999;
+}
+.zzy-tab-li .zzy-tab-active {
+	color: #0a83fb;
+}
+.zzy-tab-line {
+	display: inline-block;
+	width: 300px;
+	height: 2px;
+	background-color: #e5e5e5;
+}
+.zzy-tab-line-active {
+	width: 100px;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	border-top: 2px solid #1683fb;
+	transition: all .25s;
+}
+
+.zzy-tab-panel {
+	width: 100%;
+	height: 252px;
+	position: relative;
+}
+.zzy-panel-li{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: visibility .35s,opacity .35s;
+	opacity: 0;
+	visibility: visible;
+}
+.zzy-panel-li.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+.zzy-desc {
+	font-family: FZLTXHK--GBK1-0;
+}
+
+.zzy-slogon {
+	font-size: 24px;
+	color: #666666;
+
+}
+
+.zzy-desc-detail {
+	width: 156px;
+	margin-top: 15px;
+	font-size: 9px;
+	color: #999999;	
+}
+.zzy-panel-li:nth-of-type(2) .zzy-scan,.zzy-panel-li:nth-of-type(3) .zzy-scan {
+	margin-left: 36px;
+}
+
+.zzy-panel-li:nth-of-type(2) .scan-img, .zzy-panel-li:nth-of-type(3) .scan-img {
+	margin-left: 53px;
+}
+.zzy-scan {
+	margin-top: 32px;
+	font-size: 11px;
+	color: #666666;
+}
+
+.scan-img {
+	margin-top: 15px;
+}
+
+.scan-img-div {
+	width: 60px;
+	float: left;
+	margin-right: 18px;
+}
+
+.scan-img-div > img {
+	font-size: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+}
+.scan-img-div > span {
+	margin-top: 7px;
+	font-size: 9px;
+	color: #0080ff;
+	display: block;
+}
+.zzy-app-img-s {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-left: -10px;
+	width: 186px;
+	height: 203px;
+	margin-top: 55px;
+}
+.zzy-app-img-s > img {
+	width: 186px;
+	height: 203px;
+	margin-left: 10px;
+	vertical-align: bottom;
+}
+
+/*尾部*/
+.footer-info {
+	background-color: #283139;
+	width: 100%;
+}
+.footer-ul {
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: flex-start;
+}
+.footer-ul li {
+	height: 14px;
+	margin-bottom: 18px;
+}
+
+.footer-ul li span {
+	font-size: 9px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 14px;
+	color: rgba(255, 255, 255, 0.3);
+}
+.icon-address {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+	width: 11px;
+	height: 14px;
+	background: url("../images/ipad/IPAD-dingwei.png") no-repeat;
+	background-size: cover;
+}
+.icon-qq {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 7px;
+	width: 12px;
+	height: 14px;
+	background: url("../images/ipad/IPAD-qq.png") no-repeat;
+	background-size: cover;
+}
+.icon-qqmail {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 7px;
+	width: 13px;
+	height: 10px;
+	background: url("../images/ipad/IPAD-e-mail.png") no-repeat;
+	background-size: cover;
+}
+
+.footer-val {
+	width: 100%;
+	height: 37px;
+	background-color: #182028;
+}
+.footer-val > .zzy-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-val span {
+	height: 37px;
+	line-height: 37px;
+	display: block;
+	font-size: 8px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: rgba(255, 255, 255, 0.2);
+}
+
+/*返回顶部*/
+.backtop {
+	display: none;
+}
+
+
+
+/*隐藏部分*/
+.zzy-banner ,.zzy-banner-m, .zzy-app-img-m, .zzy-app-img {
+	display: none;
+}

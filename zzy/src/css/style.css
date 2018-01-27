@@ -1,0 +1,334 @@
+header {
+	height: 80px;
+}
+
+.zzy-wrap {
+	width: 1200px;
+	margin:0 auto;
+}
+
+.zzy-logo {
+	display: inline-block;
+	width: 191px;
+	height: 54px;
+	margin-top: 13px;
+	background: url(../images/logo.png);
+	background-size: cover;
+}
+
+/*.zzy-logo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}*/
+
+.zzy-nav-list {
+	display: none;
+}
+
+.zzy-nav {
+	float: right;
+	height: 80px;
+}
+.zzy-nav > a {
+	height: 80px;
+	line-height: 80px;
+	margin-left: 77px;
+	letter-spacing: 2px;
+	color: #999999;
+	font-size: 20px;
+	margin-left: 77px;
+}
+
+.zzy-nav > .zzy-active {
+	color: #0a83fb;
+}
+
+/*导航*/
+.zzy-banner {
+	width: 100%;
+	position: relative;
+	
+}
+.zzy-banner > img {
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+	display: block;
+	transition: opacity 3s;
+	overflow: hidden;
+    width:100%;
+    min-width: 1200px;
+}
+
+
+.zzy-view {
+	padding-top: 90px;
+	padding-bottom: 88px;
+	overflow: hidden;
+}
+.zzy-data-dl {
+	float: left;
+	margin-right: 80px; 
+	width: 343px;
+	text-align: center;
+}
+.zzy-data-dl:nth-of-type(3) {
+	margin-right: 0;
+}
+.zzy-data-dt {
+	padding-top: 90px;
+	font-size: 24px;
+	letter-spacing: 2px;
+	color: #1683fb;
+	font-weight: normal;
+}
+.icon-author {
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: -90px auto 30px;
+	background:url("../images/author-icon.png") no-repeat;
+	background-size: cover;
+}
+.zzy-data-dd {
+	margin-top: 29px;
+	font-size: 17px;
+	line-height: 24px;
+	height: 41px;
+	color: #666;
+}
+.icon-chanel {
+	display: block;
+	margin: -82px auto 29px;
+	width: 91px;
+	height: 83px;
+	background: url("../images/act-icon.png") no-repeat;
+	background-size: cover;
+}
+.icon-stage {
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: -90px auto 29px;
+	background: url("../images/pingtai.png") no-repeat;
+	background-size: cover;
+}
+
+/*各种平台展示*/
+.introduce-box {
+	width: 100%;
+	min-width: 1200px;
+	background-color: #eeeeee;
+}
+.zzy-tab {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	padding-top: 91px;
+	margin-bottom: 60px;
+}
+.zzy-tab-li {
+	text-align: center;
+	float: left;
+	width: 200px;
+	height: 55px;
+	line-height: 55px;
+}
+.zzy-tab-li a {
+	font-size: 24px;
+	color: #999999;
+}
+.zzy-tab-li .zzy-tab-active {
+	color: #0a83fb;
+}
+.zzy-tab-line {
+	display: inline-block;
+	width: 600px;
+	height: 3px;
+	background-color: #e5e5e5;
+}
+.zzy-tab-line-active {
+	width: 200px;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	border-top: 4px solid #1683fb;
+	transition: all .25s;
+}
+
+.zzy-tab-panel {
+	width: 100%;
+	height: 540px;
+	position: relative;
+}
+.zzy-panel-li{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: visibility .35s,opacity .35s;
+	opacity: 0;
+	visibility: visible;
+}
+.zzy-panel-li.active {
+	visibility: visible;
+	opacity: 1;
+}
+.zzy-desc {
+	font-family: FZLTXHK--GBK1-0;
+	margin-left: 579px;
+	padding-top: 91px;
+}
+
+.zzy-slogon {
+	font-size: 48px;
+	font-family: FZLTZHK--GBK1-0;
+	color: #666666;
+
+}
+
+.zzy-desc-detail {
+	margin-top: 22px;
+	font-family: FZLTXHK--GBK1-0;
+	font-size: 18px;
+	color: #999999;	
+}
+
+.zzy-scan {
+	margin-top: 59px;
+	font-family: FZLTZHK--GBK1-0;
+	font-size: 22px;
+	color: #666666;
+}
+
+.scan-img {
+	margin-top: 30px;
+}
+
+.scan-img-div {
+	text-align: center;
+	width: 121px;
+	float: left;
+	margin-right: 36px;
+}
+
+.scan-img-div > img {
+	font-size: 0;
+	display: block;
+	width: 121px;
+	height: 121px;
+}
+.scan-img-div > span {
+	margin-top: 14px;
+	font-size: 19px;
+	color: #0080ff;
+	display: block;
+}
+.zzy-app-img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.zzy-app-img > img {
+	height: 540px;
+	margin-left: -25px;
+	vertical-align: bottom;
+}
+
+/*尾部*/
+.footer-info {
+	height: 83px;
+	background-color: #283139;
+	width: 100%;
+	min-width: 1200px;
+}
+.footer-ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.footer-ul li {
+	margin-right: 90px;
+	line-height: 83px;
+}
+.footer-ul li span {
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.3);
+}
+.icon-address {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 14px;
+	width: 18px;
+	height: 23px;
+	background: url("../images/add-icon.png") no-repeat;
+}
+.icon-qq {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 14px;
+	width: 20px;
+	height: 23px;
+	background: url("../images/QQicon.png") no-repeat;
+}
+.icon-qqmail {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 14px;
+	width: 24px;
+	height: 18px;
+	background: url("../images/e-mail-icon.png") no-repeat;
+	background-size: cover;
+}
+
+.footer-val {
+	min-width: 1200px;
+	width: 100%;
+	height: 72px;
+	background-color: #182028;
+}
+.footer-val > .zzy-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-val span {
+	height: 72px;
+	line-height: 72px;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: rgba(255, 255, 255, 0.2);
+}
+
+/*返回顶部*/
+.backtop {
+	position: fixed;
+	bottom: 155px;
+	right:100px;
+	width: 60px;
+	height: 60px;
+	background-color: #dcdcdc;
+	border-radius: 15px;
+}
+.icon-back {
+	margin: 14px auto;
+	width: 23px;
+	height: 32px;
+	display: block;
+	background-size: cover;
+	background: url("../images/up.png") no-repeat;
+}
+
+/*隐藏部分*/
+.zzy-banner-m ,.zzy-banner-s, .zzy-app-img-m, .zzy-app-img-s {
+	display: none;
+}
